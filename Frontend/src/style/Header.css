@@ -1,0 +1,15 @@
+.header{
+    height: 70px;
+  }
+
+  .wel {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.wel span{
+    margin-left: 30px;
+    font-weight: 700;
+}
+
