@@ -6,7 +6,7 @@ const admin = require("../middleware/admin");
 const upload = require("../middleware/uploadImages");
 
 
-router.post("/",   upload.single("image"),
+router.post("/", admin,  upload.single("image"),
     body("email").isEmail().withMessage("Please enter valid email"),
     body("name")
         .isString().withMessage("Please enter a valid name")
